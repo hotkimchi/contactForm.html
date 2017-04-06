@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Contact Us Form</title>
+    </head>
+    <body>
+        <h2>Please Fill Out Information</h2>
+        <form action="Contact Form" method="POST">
+        First Name:   <input type="text" name="firstName"/><br/>
+        Last Name:    <input type="text" name="lastName"/><br/>
+        Email:        <input type="text" name="email"/><br/>
+        Type of License: <input type="radio" name="license"
+        checked/>Business
+        <input type="radio" name="license"/>Personal<br/>
+        Reason:       <select name="reasons">
+            <option value="value0">Select a Reason</option>
+            <option value="value1">Software Support</option>
+            <option value="value2">Hardware Support</option>
+            <option value="value3">Information Request</option>
+            </select><br/>
+        Additional Information: <textarea name="briefDesription"></textarea><br/>
+            <input type="checkbox" name="conditions"/>
+            I have read the terms of service<br/>
+            <input type="submit" value="Send Request"/>
+
+
+    </body>
+
+</html>
